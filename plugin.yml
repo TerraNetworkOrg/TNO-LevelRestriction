@@ -1,0 +1,10 @@
+name: LevelRestriction
+main: terranetworkorg.LevelRestriction.LevelRestriction
+version: 1.0.0
+author: TerraNetworkOrg
+depend: [Spout,Vault]
+commands:
+  levelrestriction:
+    description: Lists plugin details
+    usage: /<command>
+    aliases: [lr,lrestrict]

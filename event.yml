@@ -1,0 +1,31 @@
+Event:
+  onBreak:
+    BlockID:
+      '3':
+        Class:
+          Digger: 0.5
+      '12':
+        Class:
+          Digger: 1.0
+  onPlace:
+    BlockID:
+      '1':
+        Class:
+          Architect: 0.5
+      '4':
+        Class:
+          Architect: 0.25
+  onKill:
+    EnemyName:
+      Zombie:
+        Class:
+          Hunter: 1.0
+      Creeper:
+        Class:
+          Hunter: 1.5
+      Cow:
+        Class:
+          Farmer: 0.5
+      Sheep:
+        Class:
+          Farmer: 0.75

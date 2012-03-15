@@ -1,0 +1,47 @@
+Class:
+  Digger:
+    Level:
+      '1':
+        Grant: itemrestriction.tool.wood.shovel
+      '2':
+        Grant: itemrestriction.tool.stone.shovel
+      '4':
+        Grant: itemrestriction.tool.iron.shovel
+      '6':
+        Grant: itemrestriction.tool.diamond.shovel
+        Require: lr.restrict.digger.expert
+  Architect:
+    Level:
+      '1':
+        Grant: itemrestriction.tool.wood.pickaxe
+      '2':
+        Grant: itemrestriction.tool.stone.pickaxe
+      '4':
+        Grant: itemrestriction.tool.iron.pickaxe
+      '6':
+        Grant: itemrestriction.tool.diamond.pickaxe
+        Require: lr.class.expert.architect
+  Hunter:
+    Level:
+      '1':
+        Grant: itemrestriction.tool.wood.sword
+      '7':
+        Grant: itemrestriction.tool.stone.sword
+        Require: lr.hunter.novice
+      '13':
+        Grant: itemrestriction.tool.iron.sword
+      '27':
+        Grant: itemrestriction.tool.diamond.sword
+        Require: lr.hunter.master
+  Farmer:
+    Level:
+      '1':
+        Grant: itemrestriction.tool.wood.hoe
+      '4':
+        Grant: itemrestriction.tool.stone.hoe
+      '10':
+        Grant: itemrestriction.tool.iron.hoe
+        Require: lr.class.farmer.apprentice
+      '18':
+        Grant: itemrestriction.tool.diamond.hoe
+        Require: lr.class.farmer.expert
